@@ -1,0 +1,10 @@
+.App {
+  width: 70%;
+  margin: auto;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 68% 32%;
+  grid-gap: 2rem;
+}

@@ -1,0 +1,17 @@
+.header {
+    display: flex;
+    margin-top: 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-list {
+    margin-left: auto;
+}
+
+.link-list {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-around;
+    gap: 3rem;
+}

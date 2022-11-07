@@ -17,6 +17,7 @@ function App() {
           <Hero heroImage={Testt}/>
           <Newsection />
         </div>
+        <div className='bottom-articles'>
           <Articles sideImage={firstImage} articleNumber="01"
           articleTitle="Reviving Retro PCs"
           artDetail="What happens when old PCs are given modern upgrades?"
@@ -25,10 +26,11 @@ function App() {
           articleTitle="Top 10 Laptops of 2022"
           artDetail="Our best picks for various needs and budgets."
           />
-          <Articles sideImage={firstImage} articleNumber="03"
+          <Articles sideImage={thirdImage} articleNumber="03"
           articleTitle="The Growth of Gaming"
           artDetail="How the pandemic has sparked fresh opportunities."
           />
+        </div>
       </main>
     </div>
   );

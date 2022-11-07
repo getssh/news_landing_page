@@ -4,7 +4,7 @@ import './Articles.css';
 
 export default function(props) {
     return (
-        <div>
+        <div className="all-articles">
             <div className="image">
                 <img src={props.sideImage} alt="article news image" />
             </div>

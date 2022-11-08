@@ -15,3 +15,20 @@
     justify-content: space-around;
     gap: 3rem;
 }
+
+@media screen and (max-width: 600px) {
+    .nav-list {
+        
+    }
+
+    .link-list {
+        display: block;
+        height: 1.7rem;
+        overflow: hidden;
+    }
+
+    .logo {
+        float: left;
+        margin-right: auto;
+    }
+}

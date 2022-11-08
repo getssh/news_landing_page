@@ -5,7 +5,11 @@ export default function(props) {
     return (
         <div class="hero">
             <div className="hero-image">
-                <img src={props.heroImage} />
+                <picture>
+                    <source media="(max-width: 500px)" srcset={props.heroMobile}/>
+                    <source media="(min-width: 600px)" srcset={props.heroImage}/>
+                    <img src={props.heroImage} />
+                </picture>
             </div>
             <div className="hero-title">
                 <h1>The Bright Future of Web 3.0?</h1>

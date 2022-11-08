@@ -16,15 +16,45 @@
     gap: 3rem;
 }
 
+.menu-icon {
+    display: none;
+}
+
 @media screen and (max-width: 600px) {
+    /* .menu-icon {
+        display: inline;
+        float: right;
+        margin-left: auto;
+    } */
+
+    .menu-icon {
+        display: inline;
+    }
     .nav-list {
-        
+        position: relative;
+        display: inline-block;
+    }
+
+    .link-list ul li {
+        background-color: red;
     }
 
     .link-list {
         display: block;
-        height: 1.7rem;
-        overflow: hidden;
+    }
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        right: 3rem;
+        width: 70%;
+        height: 100%;
+        background-color: #FFF;
+        padding: 15px;
+        z-index: 9;
+    }
+
+    .nav-list:hover .dropdown-content {
+        display: block;
     }
 
     .logo {

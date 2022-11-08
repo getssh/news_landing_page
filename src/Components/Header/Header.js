@@ -14,11 +14,11 @@ export default function Header(props) {
                 </div>
                 <div className="dropdown-content">
                     <ul className="link-list">
-                        <li>Home</li>
-                        <li>New</li>
-                        <li>Popluar</li>
-                        <li>Trending</li>
-                        <li>Catagories</li>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">New</a></li>
+                        <li><a href="#">Popluar</a></li>
+                        <li><a href="#">Trending</a></li>
+                        <li><a href="#">Catagories</a></li>
                     </ul>
                 </div>
             </div>

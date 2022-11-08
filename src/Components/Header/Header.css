@@ -16,6 +16,16 @@
     gap: 3rem;
 }
 
+.link-list a {
+    text-decoration: none;
+    color: hsl(236, 13%, 42%);
+}
+
+.link-list a:hover {
+    color: hsl(5, 85%, 63%);
+    cursor: pointer;
+}
+
 .menu-icon {
     display: none;
 }
@@ -29,25 +39,25 @@
 
     .menu-icon {
         display: inline;
+        cursor: pointer;
     }
     .nav-list {
         position: relative;
         display: inline-block;
     }
 
-    .link-list ul li {
-        background-color: red;
+    .link-list {
+        display: flex;
+        flex-direction: column;
     }
 
-    .link-list {
-        display: block;
-    }
     .dropdown-content {
         display: none;
         position: absolute;
-        right: 3rem;
-        width: 70%;
-        height: 100%;
+        right: -1rem;
+        top: 3rem;
+        width: 20rem;
+        height: 100rem;
         background-color: #FFF;
         padding: 15px;
         z-index: 9;
